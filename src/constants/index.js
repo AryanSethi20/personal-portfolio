@@ -95,40 +95,16 @@ const technologies = [
     icon: springboot,
   },
   {
-    name: "Laravel",
-    icon: laravel,
-  },
-  {
     name: "Node JS",
     icon: nodejs,
-  },
-  {
-    name: "Django",
-    icon: django,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Vue",
-    icon: vue,
-  },
-  {
-    name: "Flutter",
-    icon: flutter,
-  },
-  {
     name: "MySQL",
     icon: mysql,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
   },
   {
     name: "PostgreSQL",
@@ -139,20 +115,12 @@ const technologies = [
     icon: db2,
   },
   {
-    name: "Firebase",
-    icon: firebase,
-  },
-  {
     name: "AWS",
     icon: aws,
   },
   {
     name: "Docker",
     icon: docker,
-  },
-  {
-    name: "Kubernetes",
-    icon: kubernetes,
   },
 ];
 
