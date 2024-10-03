@@ -1,38 +1,29 @@
 import {
-  mobile,
   backend,
   creator,
   web,
-  javascript,
   reactjs,
   nodejs,
-  mongodb,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
   mainframe,
-  kubernetes,
   aws,
   cobol,
   cpp,
   db2,
-  django,
-  firebase,
-  flutter,
   golang,
   java,
-  laravel,
   mysql,
   postgresql,
   python,
   springboot,
-  vue,
+  getgo,
+  justdabao,
+  bookgram,
+  zoopup,
+  wanderful,
+  robot,
+  nbadb,
+  moblima,
 } from "../assets";
 
 export const navLinks = [
@@ -127,150 +118,168 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Junior Developer Intern",
+    company_name: "GetGo Carsharing",
+    icon: getgo,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "January 2024 - August 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Created a Mock Service to simulate third-party vendor responses for performance testing and product validation.",
+      "Developed a tool to synchronize records between MySQL and OpenSearch, eliminating inconsistencies in the production environment.",
+      "Implemented a search service that reduced infrastructure costs by 10%.",
+      "Developed an aggregator service to manage common services across microservices, reducing the load on other microservices.",
+      "Formulated a feature flag service enabling gradual feature rollouts and simplified bug fixes without redeployment."
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Full Stack Developer Intern",
+    company_name: "ZoopUp",
+    icon: zoopup,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "August 2023 - December 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and implemented a training module for the company website.",
+      "Contributed to the creation of a client app that increased client satisfaction and retention by 20%.",
+      "Collaborated with cross-functional teams to deliver high-quality services."
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Software Engineer Intern",
+    company_name: "Just Dabao",
+    icon: justdabao,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "May 2023 - July 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a dynamic marketplace platform, increasing user registrations by 30% and daily active users by 15%.",
+      "Optimized product features and user journeys, leading to a 3x scalability potential.",
+      "Reduced user complaints by 40% by enhancing the user experience."
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Co-Founder",
+    company_name: "BookGram",
+    icon: bookgram,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "June 2021 - June 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Co-founded an online marketplace facilitating the exchange of over 2,000 books.",
+      "Built a thriving community of 500+ registered users promoting affordable access to literature during the pandemic."
     ],
-  },
+  },  
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "Aryan has made exceptional contributions to the engineering team at GetGo, delivering outstanding work and adding tremendous value to the team through his projects.",
+    name: "Malik Badaruddin",
     designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    company: "GetGo Carsharing",
+    image: "https://media.licdn.com/dms/image/v2/D5603AQGhjUylNS7vKw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1721789743002?e=1733356800&v=beta&t=R5gPLpOpD_zCfjnIxArVkKygTRQRtKrOndsfvn-sRuY",
   },
+  // {
+  //   testimonial:
+  //     "I've never met a web developer who truly cares about their clients' success like Rick does.",
+  //   name: "Chris Brown",
+  //   designation: "COO",
+  //   company: "DEF Corp",
+  //   image: "https://randomuser.me/api/portraits/men/5.jpg",
+  // },
+  // {
+  //   testimonial:
+  //     "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+  //   name: "Lisa Wang",
+  //   designation: "CTO",
+  //   company: "456 Enterprises",
+  //   image: "https://randomuser.me/api/portraits/women/6.jpg",
+  // },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Wanderful – A Carpooling Application",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A carpooling web platform that allows drivers to create and manage rides, and passengers to book rides, fostering seamless connections and reducing carbon emissions in Singapore.",
     tags: [
+      {
+        name: "django",
+        color: "blue-text-gradient",
+      },
       {
         name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "sqlite",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: wanderful,
+    source_code_link: "https://github.com/AryanSethi20/Backend-wanderer",
   },
   {
-    name: "Job IT",
+    name: "Algorithm Development – Multidisciplinary Design Project",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Developed an autonomous robot that navigates complex mazes using advanced image processing and recognition techniques, implementing A* search, ray casting, and multiprocessing optimizations.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "image-processing",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "robotics",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: robot,
+    source_code_link: "https://github.com/AryanSethi20/MDP-Algorithm",
   },
   {
-    name: "Trip Guide",
+    name: "Database Design – NBA Games Dataset",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Designed and implemented an optimized database for a large NBA games dataset in C++, utilizing B+ Tree indexing and unspanned storage system for reduced disk I/O and improved performance.",
     tags: [
       {
-        name: "nextjs",
+        name: "cpp",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "database-design",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "b+tree",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: nbadb,
+    source_code_link: "https://github.com/indicium15/sc3020-project-1",
   },
+  {
+    name: "Movie Booking and Listing Management Application",
+    description:
+      "A Java-based application for seamless movie ticket booking and listing management, utilizing OOP principles, ECB architecture, and SOLID design patterns for enhanced user experience.",
+    tags: [
+      {
+        name: "java",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "oop",
+        color: "green-text-gradient",
+      },
+      {
+        name: "solid",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: moblima,  // replace this with the actual image
+    source_code_link: "https://github.com/lemousehunter/SC2002-MOBLIMA-Project",
+  },  
 ];
 
 export { services, technologies, experiences, testimonials, projects };

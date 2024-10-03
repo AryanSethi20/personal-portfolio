@@ -38,11 +38,15 @@ import postgresql from "./tech/postgresql.png";
 import python from "./tech/python.svg";
 import springboot from "./tech/springboot.png";
 import vue from "./tech/vue.png";
+import wanderful from "./wanderful.jpeg";
+import robot from "./robot.jpeg";
+import nbadb from "./nbadb.jpg";
+import moblima from "./moblima.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import getgo from "./company/getgo.png";
+import justdabao from "./company/justdabao.jpeg";
+import bookgram from "./company/bookgram.jpeg";
+import zoopup from "./company/zoopup.jpeg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -70,10 +74,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   carrent,
   jobit,
   tripguide,
@@ -94,4 +94,12 @@ export {
   python,
   springboot,
   vue,
+  getgo,
+  justdabao,
+  bookgram,
+  zoopup,
+  wanderful,
+  robot,
+  nbadb,
+  moblima,
 };
