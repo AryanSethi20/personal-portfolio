@@ -47,10 +47,14 @@ import getgo from "./company/getgo.png";
 import justdabao from "./company/justdabao.jpeg";
 import bookgram from "./company/bookgram.jpeg";
 import zoopup from "./company/zoopup.jpeg";
+import astar from "./company/astar.jpeg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import sentiment from "./sentiment.jpg";
+import ntuswap from "./ntuswap.jpg";
+import dbsp from "./dbsp.jpg";
 
 export {
   logo,
@@ -102,4 +106,8 @@ export {
   robot,
   nbadb,
   moblima,
+  astar,
+  sentiment,
+  ntuswap,
+  dbsp,
 };

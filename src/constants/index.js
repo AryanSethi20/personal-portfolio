@@ -24,6 +24,10 @@ import {
   robot,
   nbadb,
   moblima,
+  astar,
+  ntuswap,
+  sentiment,
+  dbsp,
 } from "../assets";
 
 export const navLinks = [
@@ -115,8 +119,20 @@ const technologies = [
   },
 ];
 
-
 const experiences = [
+  {
+    title: "Research Intern",
+    company_name:
+      "Advanced Remanufacturing and Technology Centre (ARTC), A*STAR",
+    icon: astar,
+    iconBg: "#383E56",
+    date: "August 2024 - Present",
+    points: [
+      "Conducted empirical analysis of Peak Age of Information (PAoI) optimization in IoT networks, comparing Zero-Wait and Continuous Update policies across different network configurations.",
+      "Developed and implemented experimental setups using Raspberry Pi and MQTT protocols to measure PAoI across distributed networks, collecting and analysing over 100,000 samples per configuration to evaluate system performance under varying network conditions.",
+      "Currently working on designing a reinforcement learning-based scheduling mechanism to dynamically optimize update policies in Industrial IoT networks, aiming to minimize PAoI while considering real-time network conditions and heterogeneous data sources.",
+    ],
+  },
   {
     title: "Junior Developer Intern",
     company_name: "GetGo Carsharing",
@@ -128,7 +144,7 @@ const experiences = [
       "Developed a tool to synchronize records between MySQL and OpenSearch, eliminating inconsistencies in the production environment.",
       "Implemented a search service that reduced infrastructure costs by 10%.",
       "Developed an aggregator service to manage common services across microservices, reducing the load on other microservices.",
-      "Formulated a feature flag service enabling gradual feature rollouts and simplified bug fixes without redeployment."
+      "Formulated a feature flag service enabling gradual feature rollouts and simplified bug fixes without redeployment.",
     ],
   },
   {
@@ -140,7 +156,7 @@ const experiences = [
     points: [
       "Developed and implemented a training module for the company website.",
       "Contributed to the creation of a client app that increased client satisfaction and retention by 20%.",
-      "Collaborated with cross-functional teams to deliver high-quality services."
+      "Collaborated with cross-functional teams to deliver high-quality services.",
     ],
   },
   {
@@ -152,7 +168,7 @@ const experiences = [
     points: [
       "Developed a dynamic marketplace platform, increasing user registrations by 30% and daily active users by 15%.",
       "Optimized product features and user journeys, leading to a 3x scalability potential.",
-      "Reduced user complaints by 40% by enhancing the user experience."
+      "Reduced user complaints by 40% by enhancing the user experience.",
     ],
   },
   {
@@ -163,9 +179,9 @@ const experiences = [
     date: "June 2021 - June 2022",
     points: [
       "Co-founded an online marketplace facilitating the exchange of over 2,000 books.",
-      "Built a thriving community of 500+ registered users promoting affordable access to literature during the pandemic."
+      "Built a thriving community of 500+ registered users promoting affordable access to literature during the pandemic.",
     ],
-  },  
+  },
 ];
 
 const testimonials = [
@@ -175,7 +191,8 @@ const testimonials = [
     name: "Malik Badaruddin",
     designation: "CTO",
     company: "GetGo Carsharing",
-    image: "https://media.licdn.com/dms/image/v2/D5603AQGhjUylNS7vKw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1721789743002?e=1733356800&v=beta&t=R5gPLpOpD_zCfjnIxArVkKygTRQRtKrOndsfvn-sRuY",
+    image:
+      "https://media.licdn.com/dms/image/v2/D5603AQGhjUylNS7vKw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1721789743002?e=1733356800&v=beta&t=R5gPLpOpD_zCfjnIxArVkKygTRQRtKrOndsfvn-sRuY",
   },
   // {
   //   testimonial:
@@ -196,6 +213,57 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "NTUSwap - Decentralized Exchange",
+    description:
+      "A decentralized cryptocurrency exchange platform enabling secure peer-to-peer trading of ERC-20 tokens with a traditional orderbook model, achieving zero failed transactions in testing phase.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "solidity",
+        color: "green-text-gradient",
+      },
+      {
+        name: "web3.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "truffle",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: ntuswap,
+    source_code_link: "https://github.com/RowenTey/NTUSwap",
+  },
+  {
+    name: "Sentiment Analysis of Rotten Tomatoes Dataset",
+    description:
+      "A comprehensive NLP project implementing multiple neural architectures (RNN, LSTM, GRU, CNN) and a fine-tuned DistilBERT model for sentiment classification, achieving 90.62% accuracy through transfer learning and sophisticated OOV handling.",
+    tags: [
+      {
+        name: "pytorch",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "transformers",
+        color: "green-text-gradient",
+      },
+      {
+        name: "fasttext",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "optuna",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: sentiment,
+    source_code_link:
+      "https://github.com/AryanSethi20/sentiment-classification",
+  },
   {
     name: "Wanderful – A Carpooling Application",
     description:
@@ -239,6 +307,32 @@ const projects = [
     source_code_link: "https://github.com/AryanSethi20/MDP-Algorithm",
   },
   {
+    name: "PostgreSQL Query Explorer",
+    description:
+      "A sophisticated database visualization tool featuring query execution plan analysis, interactive block-level data exploration, and natural language query explanations, implemented with real-time statistics tracking and achieving 95% query analysis coverage across TPC-H datasets.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "postgresql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "flask",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "networkx",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: dbsp,
+    source_code_link:
+      "https://github.com/AryanSethi20/Database-System-Principles-Project",
+  },
+  {
     name: "Database Design – NBA Games Dataset",
     description:
       "Designed and implemented an optimized database for a large NBA games dataset in C++, utilizing B+ Tree indexing and unspanned storage system for reduced disk I/O and improved performance.",
@@ -277,9 +371,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: moblima,  // replace this with the actual image
+    image: moblima, // replace this with the actual image
     source_code_link: "https://github.com/lemousehunter/SC2002-MOBLIMA-Project",
-  },  
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
