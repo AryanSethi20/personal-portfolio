@@ -1,0 +1,49 @@
+<svg width="720" height="460" viewBox="0 0 720 460" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="720" y2="460" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#151030"/>
+      <stop offset="1" stop-color="#0d0b1f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.42" r="0.65">
+      <stop offset="0" stop-color="#915EFF" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#915EFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="720" height="460" fill="url(#bg)"/>
+  <rect width="720" height="460" fill="url(#glow)"/>
+
+  <g stroke="#4b3f7a" stroke-width="1.5" opacity="0.9">
+    <line x1="360" y1="230" x2="150" y2="120"/>
+    <line x1="360" y1="230" x2="150" y2="340"/>
+    <line x1="360" y1="230" x2="570" y2="120"/>
+    <line x1="360" y1="230" x2="570" y2="340"/>
+    <line x1="360" y1="230" x2="360" y2="90"/>
+    <line x1="150" y1="120" x2="150" y2="340"/>
+    <line x1="570" y1="120" x2="570" y2="340"/>
+  </g>
+
+  <g stroke="#915EFF" stroke-width="2" opacity="0.55">
+    <circle cx="360" cy="230" r="46" fill="none"/>
+    <circle cx="360" cy="230" r="70" fill="none" opacity="0.35"/>
+    <circle cx="360" cy="230" r="94" fill="none" opacity="0.2"/>
+  </g>
+
+  <circle cx="360" cy="230" r="30" fill="#915EFF"/>
+  <path d="M347 238 L357 220 L365 232 L373 216" stroke="#fff8eb" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g fill="#00d4ff">
+    <circle cx="150" cy="120" r="12"/>
+    <circle cx="150" cy="340" r="12"/>
+    <circle cx="570" cy="120" r="12"/>
+    <circle cx="570" cy="340" r="12"/>
+    <circle cx="360" cy="90" r="10"/>
+  </g>
+
+  <g fill="none" stroke="#00d4ff" stroke-width="2" opacity="0.8">
+    <path d="M138 108 a17 17 0 0 1 24 0" opacity="0.9"/>
+    <path d="M132 102 a25 25 0 0 1 36 0" opacity="0.5"/>
+  </g>
+
+  <text x="360" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff" opacity="0.85">5G Edge Caching · Reinforcement Learning</text>
+</svg>

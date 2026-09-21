@@ -5,26 +5,28 @@ import {
   reactjs,
   nodejs,
   docker,
-  mainframe,
   aws,
-  cobol,
   cpp,
-  db2,
   golang,
   java,
   mysql,
   postgresql,
   python,
   springboot,
+  csharp,
+  azure,
+  pytorch,
+  dotnet,
   getgo,
   justdabao,
   bookgram,
   zoopup,
+  mri,
   wanderful,
   robot,
   nbadb,
   moblima,
-  astar,
+  edgecaching,
   ntuswap,
   sentiment,
   dbsp,
@@ -58,12 +60,11 @@ const services = [
     title: "AI Developer",
     icon: creator,
   },
-  {
-    title: "Mainframe Developer",
-    icon: mainframe,
-  },
 ];
 
+// Kept intentionally short (~15 balls): each entry below renders its own
+// WebGL context, and stacking too many alongside the Hero/Earth/Stars
+// canvases risks exhausting the browser's live WebGL context budget.
 const technologies = [
   {
     name: "Java",
@@ -74,8 +75,8 @@ const technologies = [
     icon: python,
   },
   {
-    name: "COBOL",
-    icon: cobol,
+    name: "C#",
+    icon: csharp,
   },
   {
     name: "Golang",
@@ -84,6 +85,10 @@ const technologies = [
   {
     name: "C++",
     icon: cpp,
+  },
+  {
+    name: ".NET",
+    icon: dotnet,
   },
   {
     name: "Spring Boot",
@@ -106,12 +111,16 @@ const technologies = [
     icon: postgresql,
   },
   {
-    name: "DB2",
-    icon: db2,
+    name: "PyTorch",
+    icon: pytorch,
   },
   {
     name: "AWS",
     icon: aws,
+  },
+  {
+    name: "Azure",
+    icon: azure,
   },
   {
     name: "Docker",
@@ -121,30 +130,44 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Research Intern",
-    company_name:
-      "Advanced Remanufacturing and Technology Centre (ARTC), A*STAR",
-    icon: astar,
-    iconBg: "#383E56",
-    date: "August 2024 - Present",
+    title: "Software Engineer 1",
+    company_name: "MRI Software",
+    icon: mri,
+    iconBg: "#E6DEDD",
+    date: "August 2025 - Present",
     points: [
-      "Conducted empirical analysis of Peak Age of Information (PAoI) optimization in IoT networks, comparing Zero-Wait and Continuous Update policies across different network configurations.",
-      "Developed and implemented experimental setups using Raspberry Pi and MQTT protocols to measure PAoI across distributed networks, collecting and analysing over 100,000 samples per configuration to evaluate system performance under varying network conditions.",
-      "Currently working on designing a reinforcement learning-based scheduling mechanism to dynamically optimize update policies in Industrial IoT networks, aiming to minimize PAoI while considering real-time network conditions and heterogeneous data sources.",
+      "Built a reconciliation job comparing computed gross-turnover rent against posted POS sales feeds before invoice release, catching ~30 mis-billed tenant invoices per cycle that previously surfaced as credit notes.",
+      "Built a validation layer over arrears interest computation that flags allocations inconsistent with lease payment terms, cutting monthly interest reversals from ~20 to under 5.",
+      "Built lease and license space management modules that help clients create an audit trail capturing every change to spaces set up for leasing/licensing, reducing dispute investigations for client teams.",
+      "Refactored core tenancy modules within a large legacy .NET Web Forms codebase to reduce coupling and improve readability, cutting the time required to extend affected areas by 60%.",
+      "Built an automation tool that converts website projects into web application projects, enabling static analysis across repositories and reducing manual setup from 3 hours to 5 minutes per project.",
+      "Gathered requirements directly from enterprise clients and validated feature behaviour before release, reducing post-release change requests and improving user experience.",
     ],
   },
   {
-    title: "Junior Developer Intern",
+    title: "Software Engineering Intern",
+    company_name: "GetGo Carsharing",
+    icon: getgo,
+    iconBg: "#383E56",
+    date: "December 2024 - April 2025",
+    points: [
+      "Designed and deployed a feature flag service across multi-environment microservices, enabling feature toggles without redeployment and accelerating deployment cycles by 30% while reducing rollback incidents by 25%.",
+      "Published an internal private package library for the feature flag service, adopted by 100% of internal services and reducing integration effort.",
+      "Engineered fallback mechanisms on the Solace event broker with session recovery and automated failover, raising system availability from 99.2% to 99.9%.",
+      "Developed a company-wide DevOps Management System dashboard centralising infrastructure monitoring and operations, improving incident response time by 35% across 5 engineering teams.",
+    ],
+  },
+  {
+    title: "Junior Software Developer Intern",
     company_name: "GetGo Carsharing",
     icon: getgo,
     iconBg: "#383E56",
     date: "January 2024 - August 2024",
     points: [
-      "Created a Mock Service to simulate third-party vendor responses for performance testing and product validation.",
-      "Developed a tool to synchronize records between MySQL and OpenSearch, eliminating inconsistencies in the production environment.",
-      "Implemented a search service that reduced infrastructure costs by 10%.",
-      "Developed an aggregator service to manage common services across microservices, reducing the load on other microservices.",
-      "Formulated a feature flag service enabling gradual feature rollouts and simplified bug fixes without redeployment.",
+      "Built a high performance search service to absorb heavy-load query traffic, reducing infrastructure costs by 10% and improving p95 search latency.",
+      "Created a mock service replicating third-party vendor responses, unblocking performance testing for scenarios that could not be reproduced in live environments and shortening integration timelines.",
+      "Developed a data synchronisation tool to reconcile records between MySQL and OpenSearch, eliminating recurring production inconsistencies and cutting data-integrity incidents.",
+      "Implemented an aggregator service consolidating responses across microservices, reducing inter-service calls per request and simplifying frontend integration.",
     ],
   },
   {
@@ -213,6 +236,32 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "AI-Based Edge Caching for 5G-and-Beyond Industrial IoT Networks",
+    description:
+      "Final year project implementing deep reinforcement learning policy switching with DQN and DDQN to minimise Peak Age of Information in 5G-enabled Industrial IoT networks, improving on static strategies by over 10%. Built an MQTT-based edge caching system that toggles between Zero-Wait and Continuous Update policies in real time based on live network metrics.",
+    tags: [
+      {
+        name: "reinforcement-learning",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "pytorch",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mqtt",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "python",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: edgecaching,
+    source_code_link:
+      "https://github.com/AryanSethi20/AI-Based-Edge-Caching-on-5G-and-Beyong-Industrial-IOT-Networks",
+  },
   {
     name: "NTUSwap - Decentralized Exchange",
     description:

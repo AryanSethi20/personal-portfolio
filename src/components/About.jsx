@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-      I'm a versatile software engineer with hands-on experience in a wide range of technologies, including COBOL, Java, Python, Golang, and C++. I've contributed to developing scalable solutions during my internships, such as reducing infrastructure costs and improving system performance. I excel in frontend and backend development, utilizing frameworks like React, Vue, and Laravel, alongside expertise in cloud platforms and DevOps tools like AWS, Docker, and Kubernetes. Let's work together to build innovative solutions that make a real impact!
+      I'm a Software Engineer at MRI Software, currently pursuing an M.Sc. in Financial Engineering at NUS. I build across the stack, from legacy .NET Web Forms modernization to React frontends and Golang/Spring Boot microservices, with hands-on experience in Java, Python, C#, and C++. Through my internships and full-time work, I've shipped reconciliation and validation systems, feature-flag platforms, and high-performance search services that measurably cut costs, reversals, and incident response time. I'm also into applied ML, having worked with PyTorch, LangChain, and deep reinforcement learning, and I'm comfortable across cloud and DevOps tooling like AWS, Azure, Docker, and Kubernetes. Let's work together to build innovative solutions that make a real impact!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

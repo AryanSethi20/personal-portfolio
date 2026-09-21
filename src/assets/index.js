@@ -38,16 +38,36 @@ import postgresql from "./tech/postgresql.png";
 import python from "./tech/python.svg";
 import springboot from "./tech/springboot.png";
 import vue from "./tech/vue.png";
+
+import csharp from "./tech/csharp.svg";
+import kotlin from "./tech/kotlin.svg";
+import dart from "./tech/dart.svg";
+import angular from "./tech/angular.svg";
+import redis from "./tech/redis.svg";
+import azure from "./tech/azure.svg";
+import pytorch from "./tech/pytorch.svg";
+import rabbitmq from "./tech/rabbitmq.svg";
+import dotnet from "./tech/dotnet.svg";
+import sqlserver from "./tech/sqlserver.svg";
+import pandas from "./tech/pandas.svg";
+import numpy from "./tech/numpy.svg";
+import opensearch from "./tech/opensearch.svg";
+import scikitlearn from "./tech/scikitlearn.svg";
+import langchain from "./tech/langchain.svg";
+import grpc from "./tech/grpc.svg";
+
 import wanderful from "./wanderful.jpeg";
 import robot from "./robot.jpeg";
 import nbadb from "./nbadb.jpg";
 import moblima from "./moblima.png";
+import edgecaching from "./edgecaching.svg";
 
 import getgo from "./company/getgo.png";
 import justdabao from "./company/justdabao.jpeg";
 import bookgram from "./company/bookgram.jpeg";
 import zoopup from "./company/zoopup.jpeg";
 import astar from "./company/astar.jpeg";
+import mri from "./company/mri.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -98,14 +118,32 @@ export {
   python,
   springboot,
   vue,
+  csharp,
+  kotlin,
+  dart,
+  angular,
+  redis,
+  azure,
+  pytorch,
+  rabbitmq,
+  dotnet,
+  sqlserver,
+  pandas,
+  numpy,
+  opensearch,
+  scikitlearn,
+  langchain,
+  grpc,
   getgo,
   justdabao,
   bookgram,
   zoopup,
+  mri,
   wanderful,
   robot,
   nbadb,
   moblima,
+  edgecaching,
   astar,
   sentiment,
   ntuswap,
